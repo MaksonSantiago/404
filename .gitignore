@@ -1,0 +1,16 @@
+# Ignorar ambientes virtuais (cada desenvolvedor deve ter o seu localmente)
+.venv/
+venv/
+env/
+
+# Ignorar o banco de dados local (evita sobrescrever os testes dos colegas)
+db.sqlite3
+*.sqlite3
+
+# Ignorar arquivos temporários e de cache do Python (gerados automaticamente)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar configurações visuais pessoais do VS Code
+.vscode/
